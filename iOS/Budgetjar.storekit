@@ -1,0 +1,42 @@
+{
+  "identifier" : "Budgetjar",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+    "_locale" : "en_US"
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "BUDGETJARGROUP",
+      "localizations" : [],
+      "name" : "Budgetjar Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "1.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "budgetjarsub001",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Monthly jar-refill automation and overspend alerts",
+              "displayName" : "Budgetjar Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.shimondeitel.budgetjar.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Budgetjar Pro Monthly",
+          "subscriptionGroupID" : "BUDGETJARGROUP",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
